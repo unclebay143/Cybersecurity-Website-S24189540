@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex; 
+    align-items: center; 
+    background-color: rgba(177, 175, 173, 0.678);
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1400px;
+  margin: auto;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    display: block; 
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1; 
+    justify-content: space-around; 
+}
+
+.nav-links a {
+    background-color: black; 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    margin: 0 5px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+}
+
+.nav-links a:hover {
+    background-color: #555; 
+}
+
+/* Sub-hero section */
+.hero {
+    margin-top: 6px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hero p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 2.0;
+}
+
+.sub-hero {
+    padding: 10px 1px;
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.sub-hero img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+/* Newsletter section */
+.newsletter {
+    display: flex;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    align-items: center;
+}
+
+.newsletter-image {
+    flex: 1; 
+    margin-right: 20px;
+    
+}
+
+.newsletter-image img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.newsletter-content {
+    flex: 2;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-content form {
+    display: flex; 
+}
+
+.newsletter-content input[type="email"] {
+    flex: 1; 
+    padding: 10px; 
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.newsletter-content button {
+    padding: 10px 20px;
+    background-color: #990606;
+    color: #000; 
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-content button:hover {
+    background-color: #ccc; 
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(177, 175, 173, 0.678);
+}

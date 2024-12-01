@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex; 
+  align-items: center; 
+  background-color: rgba(177, 175, 173, 0.678);
+}
+
+.logo {
+  margin-right: 10px; 
+}
+
+.logo img {
+  display: block; 
+}
+
+.nav-links {
+  display: flex;
+  flex-grow: 1; 
+  justify-content: space-around; 
+}
+
+.nav-links a {
+  background-color: black; 
+  color: white; 
+  text-decoration: none; 
+  padding: 10px 15px; 
+  margin: 0 5px;
+  text-align: center; 
+  display: flex; 
+  align-items: center; 
+}
+
+.nav-links a:hover {
+  background-color: #555; 
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+
+/* Emerging Threats */
+.threat-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.threat-hero{
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.threat-container div h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.25rem;
+}
+
+ul {
+  list-style-type: decimal;
+  margin: 1.25rem 0;
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.crypto-jacking {
+  display: flex;
+  align-items: start;
+  justify-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.crypto-jacking .content {
+  width: 50%;
+}
+
+.crypto-image {
+  width: 50%;
+}
+
+.crypto-jacking img {
+  height: auto;
+  width: 100%;
+}
+
+/* Contact styling */
+.contact-content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.form-section {
+  flex: 1;
+  width: 50%;
+}
+
+.contact-header {
+  margin: auto;
+  width: 500px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.form-section input,
+.form-section textarea {
+  background-color: #d9d9d9;
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.form-section button {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 0.75rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-section button:hover {
+  background-color: #444;
+}
+
+.contact-info {
+  width: 50%;
+}
+
+.contact-info .icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info .icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.map iframe {
+  height: 20vh;
+  width: 100%;
+}
+
+/* Newsletter section */
+.newsletter {
+  display: flex;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.newsletter-image {
+  flex: 1; 
+  margin-right: 20px;
+}
+
+.newsletter-image img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+.newsletter-content {
+  flex: 2;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter-content form {
+  display: flex; 
+}
+
+.newsletter-content input[type="email"] {
+  flex: 1; 
+  padding: 10px; 
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-content button {
+  padding: 10px 20px;
+  background-color: #990606;
+  color: #000; 
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-content button:hover {
+  background-color: #ccc; 
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(177, 175, 173, 0.678);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
