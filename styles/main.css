@@ -619,6 +619,10 @@ label {
 }
 @media (min-width: 577px) { 
   /* Nav section */
+  .logo-image {
+    height: 75px;
+    width: 100px;
+    } 
   .navbar .nav-links { 
     display: flex; 
     flex-direction: row; 
