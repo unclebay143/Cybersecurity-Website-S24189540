@@ -87,7 +87,7 @@ width: 50%;
   align-items: center;
   justify-content: center;  
 }
-.hamburger div {
+.hamburger span {
   width: 20px;
   height: 3px;
   background-color: white;
